@@ -1,0 +1,22 @@
+.shape {
+  position: absolute;
+  pointer-events: none;
+}
+
+.shape1 {
+  top: -1.5rem;
+  right: -1.5rem;
+}
+
+.shape2 {
+  bottom: -1.5rem;
+  left: -1.5rem;
+} 
+
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
